@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad formularios</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+                <br>
+                <label><input type="radio" name="Idiomas" value="ingles">Inglés</label>
+                <br>
+                <label><input type="radio" name="Idiomas" value="español">Español</label>
+                <br>
+                <label><input type="radio" name="Idiomas" value="frances">Francés</label>
+                <br><br>
+                <select name="pais">
+                    <option value="españa">España</option>
+                    <option value="francia">Francia</option>
+                    <option value="reino-unido">Reino Unido</option>
+                </select>
+                <br><br>
+                <label>Nombre</label>
+                <input type="text" name="nombre" placeholder="nombre">
+                <br><br>  
+                <label>Apellidos</label>
+                <input type="text" name="nombre" placeholder="apellidos">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Información complementaria</legend>
+            <select name="genero" size="2">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+            </select>
+            <br>
+            <label><input type="checkbox" name="genero" value="hombre">Hombre</label>
+            <br>
+            <label><input type="checkbox" name="genero" value="mujer">Mujer</label>
+            <br>
+            <label>Fecha date <input type="date"></label>
+        </fieldset>
+    </form>
+</body>
+</html>
